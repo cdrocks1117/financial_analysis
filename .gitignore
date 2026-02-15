@@ -1,15 +1,28 @@
-# dependencies
-node_modules/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
 
-# next.js
-.next/
-out/
+# Streamlit
+.streamlit/secrets.toml
 
-# production
-build/
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# misc
+# OS
 .DS_Store
-.env
-.env.local
-.env.production
+Thumbs.db
+
+# Temporary files
+*.pdf
+*.xlsx
+temp/
