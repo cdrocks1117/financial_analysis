@@ -19,8 +19,9 @@ app = FastAPI(title="Financial Statement Extractor API")
 ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://localhost:3001",
-    # Add your Vercel domain here after deployment
-    # "https://your-app.vercel.app",
+    "http://localhost:8501",  # Add Streamlit default port
+    # Add your deployed Streamlit URL here
+    # "https://your-streamlit-app.streamlit.app",
 ]
 
 app.add_middleware(
